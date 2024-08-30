@@ -11,7 +11,7 @@ import {
   TextInput,
   View,
 } from 'react-native'
-import AuthHomeScreen from './Src/Screens/AuthHomeScreen';
+import AuthHomeScreen from './Src/Screens/auth/AuthHomeScreen';
 import AuthStackNavigator from './Src/Navigations/AuthStackNavigator';
 import RootNavigator from './Src/Navigations/root/RootNavigator';
 
