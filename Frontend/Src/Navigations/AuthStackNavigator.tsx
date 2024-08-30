@@ -12,14 +12,18 @@ export type AuthStackPrarmList = {
    [AuthNavigations.LOGIN]: undefined;
 }
 
-function AuthStackNavigator() {
+const Stack = createStackNavigator<AuthStackPrarmList>();
 
-    const Stack = createStackNavigator<AuthStackPrarmList>();
+function AuthStackNavigator() {
 
   return (
     <Stack.Navigator>
         <Stack.Screen name = {AuthNavigations.AUTH_HOME} component={AuthHomeScreen}/>
-        <Stack.Screen name = {AuthNavigations.LOGIN} component={LoginScreen}/>
+        <Stack.Screen name =
+        
+        
+        
+        {AuthNavigations.LOGIN} component={LoginScreen}/>
     </Stack.Navigator>
   )
 }

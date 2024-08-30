@@ -1,10 +1,9 @@
 import { createDrawerNavigator } from "@react-navigation/drawer"
 import MapHomeScreen from "../../Screens/MapHomeScreen";
 
+const Drawer = createDrawerNavigator();
+
 function MainDrawerNavigator(){
-
-    const Drawer = createDrawerNavigator();
-
     return (
         <Drawer.Navigator>
             <Drawer.Screen name = "MapHome" component={MapHomeScreen} />
