@@ -5,6 +5,7 @@ import { AuthNavigations } from '../../Constant';
 import { StackScreenProps } from '@react-navigation/stack';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { ColorSpace } from 'react-native-reanimated';
+import CustomButton from '../../components/CustomButton';
 
 
 type AuthHomeScreenProps = StackScreenProps<AuthStackPrarmList, typeof AuthNavigations.AUTH_HOME>;
@@ -13,17 +14,15 @@ function AuthHomeScreen({navigation}:AuthHomeScreenProps) {
   return (
     <SafeAreaView>
         <View>
-            <Button 
-            title ="로그인 화면으로 이동 "
-            color = "#ebdccb" 
-            onPress={() => navigation.navigate(AuthNavigations.LOGIN)
-            }
-            
+            <CustomButton
+              label = "로그인"
+              variant='filled'
+              //onPress ={() => navigation.navigate(AuthNavigations.Login)}
             />
-            <Button 
-            title =" 회원가입으로 이동 "
-            color = "#ebdccb" 
-            onPress={() => navigation.navigate(AuthNavigations.SIGNUP)}
+             <CustomButton
+              label = "회원가입"
+              variant='outlined'
+              //onPress ={() => navigation.navigate(AuthNavigations.Login)}
             />
         </View>
     </SafeAreaView>
