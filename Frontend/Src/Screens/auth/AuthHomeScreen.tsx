@@ -15,13 +15,13 @@ function AuthHomeScreen({navigation}:AuthHomeScreenProps) {
     <SafeAreaView>
         <View>
             <CustomButton
-              label = "로그인"
-              variant='filled'
+              label = "로그인 화면으로 이동"
+              variant="filled"
               //onPress ={() => navigation.navigate(AuthNavigations.Login)}
             />
              <CustomButton
               label = "회원가입"
-              variant='outlined'
+              variant= "outlined"
               //onPress ={() => navigation.navigate(AuthNavigations.Login)}
             />
         </View>
