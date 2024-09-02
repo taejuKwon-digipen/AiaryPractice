@@ -11,7 +11,7 @@ interface CustomButtonProps {
 function CustomButton({label, variant = 'filled', size = 'large'}: CustomButtonProps) {
   return (
     <Pressable style = {[styles.container, styles[variant], styles[size]]}>
-        <Text style={[styles.text, styles[`${variant}Text`]}> (label)</Text>
+        <Text style={[styles.text, styles[`${variant}Text`]]}> (label)</Text>
     </Pressable>
   )
 }
