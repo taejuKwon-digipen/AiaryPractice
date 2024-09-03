@@ -8,6 +8,8 @@ interface CustomButtonProps extends PressableProps{
     size?: 'large' | 'medium';
 }
 
+const deviceHeight = Dimensions.get('screen').height:
+
 function CustomButton({
     label, 
     variant = 'filled', 

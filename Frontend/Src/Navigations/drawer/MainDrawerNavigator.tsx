@@ -3,7 +3,7 @@ import MapHomeScreen from "../../Screens/map/MapHomeScreen";
 import FeedHomeScreen from "../../Screens/feed/FeedHomeScreen";
 import CalenderHomeScreen from "../../Screens/calender/CalenderHomeScreen";
 
-const Drawer = createDrawerNavigator();
+const Drawer = createDrawerNavigator()
 
 function MainDrawerNavigator(){
     return (
