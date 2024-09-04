@@ -17,7 +17,7 @@ function AuthHomeScreen({navigation}:AuthHomeScreenProps) {
             <CustomButton
               label = "로그인 화면으로 이동"
               variant= 'filled'
-              size = 'large'
+              size = "large"
               onPress ={() => navigation.navigate(AuthNavigations.LOGIN)}
             />
              <CustomButton
