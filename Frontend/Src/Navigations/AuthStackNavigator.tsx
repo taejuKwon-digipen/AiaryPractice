@@ -4,7 +4,7 @@ import {StyleSheet} from 'react-native';
 import { create } from 'react-test-renderer';
 import AuthHomeScreen from '../Screens/auth/AuthHomeScreen';
 import LoginScreen from '../Screens/auth/LoginScreen';
-import { AuthNavigations } from '../Constant';
+import { AuthNavigations } from '../Constant/Navigation';
 import { StackActions } from '@react-navigation/native';
 import SignupScreen from '../Screens/auth/SignupScreen';
 import { rgbaColor } from 'react-native-reanimated/lib/typescript/Colors';

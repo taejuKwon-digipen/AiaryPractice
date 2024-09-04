@@ -5,4 +5,4 @@ const colors = {
     RoseQuartz: "#B2A3B5",
 }
 
-export {colors};
+export {colors}; 
